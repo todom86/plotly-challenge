@@ -1,4 +1,4 @@
-d3.json("static/js/samples.json").then(function(data) {
+d3.json("data/samples.json").then(function(data) {
     console.log(data);
 
     d3.select("#selDataset").on("change", optionChanged);
